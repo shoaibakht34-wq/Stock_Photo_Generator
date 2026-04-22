@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+/* Smooth dark background */
+body {
+  @apply bg-black text-white;
+}
+
+/* Glass effect */
+.glass {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg;
+}
+
+/* Glow button */
+.btn-glow {
+  @apply bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-xl hover:scale-105 transition;
+}
+
+/* Input style */
+.input-ai {
+  @apply bg-white/10 border border-white/20 rounded-xl px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-purple-500;
+}
