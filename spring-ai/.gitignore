@@ -31,8 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+<<<<<<< HEAD
 
 
 .env
 .env.*
 =======
+=======
+application.properties
+.env
+.env.*
+>>>>>>> e68f113 (Clean config)
