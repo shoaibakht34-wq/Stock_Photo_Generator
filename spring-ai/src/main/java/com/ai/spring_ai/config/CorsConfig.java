@@ -13,7 +13,11 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
+<<<<<<< HEAD
                         .allowedOrigins("https://your-netlify-app.netlify.app")
+=======
+                        .allowedOrigins("https://ai-image-generataion.netlify.app/")
+>>>>>>> 67400e12b9594b52d798d7d1624aa77b5dd83570
                         .allowedMethods("*")
                         .allowedHeaders("*");
             }
