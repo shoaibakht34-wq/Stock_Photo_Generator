@@ -30,6 +30,7 @@ public class AuthController {
     @PostMapping("/register")
     public ApiResponse<Void> register(@Valid @RequestBody User user) {
         return userService.register(user);
+       
     }
 
     
